@@ -1,0 +1,75 @@
+
+body {
+  background: url(Pictures/ACcat.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cat-div {
+  position: relative;
+
+  top: 10px;
+  bottom: 400px;
+  right:0%;
+  left:2%;
+}
+
+#catdance-div {
+  position: relative;
+  top:0px;
+  bottom: 1000px;
+  right:0%;
+  left: 35%;
+}
+
+#cathappy-div {
+  position: relative;
+  top: 0px;
+  bottom: 1000px;
+  right:0%;
+  left: 25%;
+}
+
+#dreamCat-div {
+  position: relative;
+  top: 10px;
+  bottom: 2000px;
+  right: 0%;
+  left: 30%;
+}
+
+#weird-div {
+  position: absolute;
+  top: -200px;
+  bottom: 10px;
+  right: 0px;
+  left: -1000px;
+
+}
+
+
+
+#present-div {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 50px;
+
+  transition: transform is linear;
+
+  animation: movePresent 10s Infinite linear;
+  animation-direction: normal;
+
+}
+
+@keyframes movePresent {
+ 0% {
+   margin-left: -25%
+ }
+ 100% {
+   margin-left: 100%
+ }
+}
